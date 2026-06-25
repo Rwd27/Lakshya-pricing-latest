@@ -299,13 +299,13 @@ body{font-family:'Inter',sans-serif;background:var(--off);color:var(--text);min-
     </div>
     <div class="section-label">Browse by Category</div>
     <div class="cat-tiles-grid">
-      <div class="cat-tile all-tile" onclick="mOpenCat('all','All Courses','&#x1F4DA;','All Courses',25)">
+      <div class="cat-tile all-tile" onclick="mOpenCat('all','All Courses','&#x1F4DA;','All Courses',52)">
         <span class="ct-icon">&#x1F4DA;</span>
-        <div class="ct-info"><div class="ct-name">All Courses</div><div class="ct-count">50 courses available</div></div>
+        <div class="ct-info"><div class="ct-name">All Courses</div><div class="ct-count">52 courses available</div></div>
         <div class="ct-arrow"><svg viewBox="0 0 10 10" fill="none" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M2 5h6M5 2l3 3-3 3"/></svg></div>
       </div>
-      <div class="cat-tile" onclick="mOpenCat('acca','ACCA Programmes','&#x1F4CA;','Knowledge, Skills &amp; Professional',10)">
-        <span class="ct-icon">&#x1F4CA;</span><div class="ct-name">ACCA</div><div class="ct-count">10 programmes</div>
+      <div class="cat-tile" onclick="mOpenCat('acca','ACCA Programmes','&#x1F4CA;','Knowledge, Skills &amp; Professional',16)">
+        <span class="ct-icon">&#x1F4CA;</span><div class="ct-name">ACCA</div><div class="ct-count">16 programmes</div>
         <div class="ct-arrow"><svg viewBox="0 0 10 10" fill="none" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M2 5h6M5 2l3 3-3 3"/></svg></div>
       </div>
       <div class="cat-tile" onclick="mOpenCat('cma','CMA USA','&#x1F3C5;','Hybrid, Live &amp; Student plans',3)">
@@ -321,15 +321,19 @@ body{font-family:'Inter',sans-serif;background:var(--off);color:var(--text);min-
         <div class="ct-arrow"><svg viewBox="0 0 10 10" fill="none" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M2 5h6M5 2l3 3-3 3"/></svg></div>
       </div>
       <div class="cat-tile" onclick="mOpenCat('cs','CS Programmes','&#x2696;&#xFE0F;','Executive &amp; CSEET',2)">
-        <span class="ct-icon">&#x2696;&#xFE0F;</span><div class="ct-name">CS</div>
+        <span class="ct-icon">&#x2696;&#xFE0F;</span><div class="ct-name">CS</div><div class="ct-count">2 programmes</div>
+        <div class="ct-arrow"><svg viewBox="0 0 10 10" fill="none" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M2 5h6M5 2l3 3-3 3"/></svg></div>
+      </div>
+      <div class="cat-tile" onclick="mOpenCat('integrated','Integrated Courses','&#x1F393;','MBA + ACCA',1)">
+        <span class="ct-icon">&#x1F393;</span><div class="ct-name">Integrated</div><div class="ct-count">1 programme</div>
+        <div class="ct-arrow"><svg viewBox="0 0 10 10" fill="none" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M2 5h6M5 2l3 3-3 3"/></svg></div>
+      </div>
     <div class="cat-tile" onclick="mOpenCat('uk','UK / Ireland','🇬🇧','UK/Ireland Hybrid Pricing',22)">
       <span class="ct-icon">🇬🇧</span>
       <div class="ct-name">UK / Ireland</div>
       <div class="ct-count">22 programmes</div>
       <div class="ct-arrow"><svg viewBox="0 0 12 12" fill="none" stroke="white" stroke-width="2"><path d="M2 6h8M6 2l4 4-4 4"/></svg></div>
-    </div><div class="ct-count">2 programmes</div>
-        <div class="ct-arrow"><svg viewBox="0 0 10 10" fill="none" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M2 5h6M5 2l3 3-3 3"/></svg></div>
-      </div>
+    </div>
       <div class="cat-tile" onclick="mOpenCat('cpa','CPA','&#x1F3E6;','Certified Public Accountant',1)">
         <span class="ct-icon">&#x1F3E6;</span><div class="ct-name">CPA</div><div class="ct-count">1 programme</div>
         <div class="ct-arrow"><svg viewBox="0 0 10 10" fill="none" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M2 5h6M5 2l3 3-3 3"/></svg></div>
@@ -404,10 +408,10 @@ body{font-family:'Inter',sans-serif;background:var(--off);color:var(--text);min-
       <div class="dt-sb-card">
         <div class="dt-sb-title">Browse Courses</div>
         <button class="dt-cat-btn active" data-cat="all" onclick="dtCat(this)">
-          <span class="dcb-icon">&#x1F4DA;</span><span class="dcb-label">All Courses</span><span class="dcb-count">13</span>
+          <span class="dcb-icon">&#x1F4DA;</span><span class="dcb-label">All Courses</span><span class="dcb-count">52</span>
         </button>
         <button class="dt-cat-btn" data-cat="acca" onclick="dtCat(this)">
-          <span class="dcb-icon">&#x1F4CA;</span><span class="dcb-label">ACCA</span><span class="dcb-count">15</span>
+          <span class="dcb-icon">&#x1F4CA;</span><span class="dcb-label">ACCA</span><span class="dcb-count">16</span>
         </button>
         <button class="dt-cat-btn" data-cat="cma" onclick="dtCat(this)">
           <span class="dcb-icon">&#x1F3C5;</span><span class="dcb-label">CMA USA</span><span class="dcb-count">3</span>
@@ -423,6 +427,9 @@ body{font-family:'Inter',sans-serif;background:var(--off);color:var(--text);min-
         </button>
         <button class="dt-cat-btn" data-cat="cs" onclick="dtCat(this)">
           <span class="dcb-icon">&#x2696;&#xFE0F;</span><span class="dcb-label">CS</span><span class="dcb-count">2</span>
+        </button>
+        <button class="dt-cat-btn" data-cat="integrated" onclick="dtCat(this)">
+          <span class="dcb-icon">&#x1F393;</span><span class="dcb-label">Integrated</span><span class="dcb-count">1</span>
         </button>
         <button class="dt-cat-btn" data-cat="uk" onclick="dtCat(this)">
           <span class="dcb-icon">🇬🇧</span>
@@ -453,12 +460,12 @@ body{font-family:'Inter',sans-serif;background:var(--off);color:var(--text);min-
         <div class="dt-cat-grid">
           <div class="dt-cat-card all" onclick="dtCatFromWelcome('all')">
             <span class="dcc-icon">&#x1F4DA;</span>
-            <div class="dcc-info"><div class="dcc-name">All Courses</div><div class="dcc-count">50 courses available</div></div>
+            <div class="dcc-info"><div class="dcc-name">All Courses</div><div class="dcc-count">52 courses available</div></div>
             <div class="dcc-arrow"><svg viewBox="0 0 11 11" fill="none" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M2 5.5h7M5 2l4 3.5L5 9"/></svg></div>
           </div>
           <div class="dt-cat-card" onclick="dtCatFromWelcome('acca')">
             <span class="dcc-icon">&#x1F4CA;</span>
-            <div class="dcc-info"><div class="dcc-name">ACCA</div><div class="dcc-count">13 programmes</div></div>
+            <div class="dcc-info"><div class="dcc-name">ACCA</div><div class="dcc-count">16 programmes</div></div>
             <div class="dcc-arrow"><svg viewBox="0 0 11 11" fill="none" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M2 5.5h7M5 2l4 3.5L5 9"/></svg></div>
           </div>
           <div class="dt-cat-card" onclick="dtCatFromWelcome('cma')">
@@ -488,6 +495,11 @@ body{font-family:'Inter',sans-serif;background:var(--off);color:var(--text);min-
           <div class="dt-cat-card" onclick="dtCatFromWelcome('cs')">
             <span class="dcc-icon">&#x2696;&#xFE0F;</span>
             <div class="dcc-info"><div class="dcc-name">CS</div><div class="dcc-count">2 programmes</div></div>
+            <div class="dcc-arrow"><svg viewBox="0 0 11 11" fill="none" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M2 5.5h7M5 2l4 3.5L5 9"/></svg></div>
+          </div>
+          <div class="dt-cat-card" onclick="dtCatFromWelcome('integrated')">
+            <span class="dcc-icon">&#x1F393;</span>
+            <div class="dcc-info"><div class="dcc-name">Integrated Courses</div><div class="dcc-count">1 programme</div></div>
             <div class="dcc-arrow"><svg viewBox="0 0 11 11" fill="none" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M2 5.5h7M5 2l4 3.5L5 9"/></svg></div>
           </div>
         </div>
@@ -534,7 +546,7 @@ const COURSES = [
     desc:'Full Programme · 13 Papers · 3 Year Validity',
     badge:'Popular', badgeType:'',
     icon:'📊', iconClass:'acca',
-    stdPrice:11316, sessionPrice:10184, currency:'AED',
+    stdPrice:11300, sessionPrice:10184, currency:'AED',
     oldStdPrice:10184,
     benefits:[
       'Recorded Classes','Assessment Papers','Faculty Connect',
@@ -588,7 +600,7 @@ const COURSES = [
     desc:'Skill + Professional · 1 Paper Exemption',
     badge:'', badgeType:'',
     icon:'📈', iconClass:'acca',
-    stdPrice:7466, sessionPrice:6719, currency:'AED',
+    stdPrice:8200, sessionPrice:7349, currency:'AED',
     benefits:[
       'Recorded Classes','Assessment Papers','Faculty Connect',
       'Weekly Assessment','Faculty Prepared Notes',
@@ -639,7 +651,7 @@ const COURSES = [
     desc:'Knowledge + Skills · 9 Papers · 2.5 Year Validity',
     badge:'', badgeType:'',
     icon:'📚', iconClass:'acca',
-    stdPrice:8166, sessionPrice:7349, currency:'AED',
+    stdPrice:8200, sessionPrice:7349, currency:'AED',
     benefits:[
       'Recorded Classes','Assessment Papers','Faculty Connect',
       'Weekly Assessment','Faculty Prepared Notes',
@@ -684,7 +696,7 @@ const COURSES = [
     desc:'Professional Level Only · 4 Papers',
     badge:'', badgeType:'',
     icon:'🏆', iconClass:'acca',
-    stdPrice:4082, sessionPrice:3674, currency:'AED',
+    stdPrice:4100, sessionPrice:3674, currency:'AED',
     benefits:[
       'Assessment Papers','Recorded Classes',
       'Faculty Connect','Weekly Assessment',
@@ -774,7 +786,7 @@ const COURSES = [
     desc:'1 Year Validity · IMA Certified',
     badge:'Popular', badgeType:'',
     icon:'🏅', iconClass:'cma',
-    stdPrice:5016, sessionPrice:4514, currency:'AED',
+    stdPrice:5000, sessionPrice:4514, currency:'AED',
     benefits:[
       'Recorded Classes','Assessment Papers','Faculty Connect',
       'Weekly Assessment (Session Only)','Faculty Prepared Notes (Session Only)',
@@ -855,7 +867,7 @@ const COURSES = [
     desc:'ACCA Diploma · International Standards',
     badge:'', badgeType:'',
     icon:'📋', iconClass:'ifrs',
-    stdPrice:3500, sessionPrice:3000, currency:'AED',
+    stdPrice:3350, sessionPrice:3000, currency:'AED',
     benefits:[
       'Certified Faculty & Mentors',
       'Biweekly Faculty Connect',
@@ -1062,7 +1074,7 @@ const COURSES = [
     desc:'Skill + Professional · 2 Paper Exemption · 5 Papers',
     badge:'', badgeType:'',
     icon:'📊', iconClass:'acca',
-    stdPrice:6766, sessionPrice:6089, currency:'AED',
+    stdPrice:6800, sessionPrice:6089, currency:'AED',
     benefits:[
       'Recorded Classes','Assessment Papers','Faculty Connect',
       'Weekly Assessment','Faculty Prepared Notes',
@@ -1081,12 +1093,36 @@ const COURSES = [
     ]
   }
   ,{
+    id:'acca-f5p-1paper-exempt', cat:'acca',
+    title:'ACCA F5–P Level (1 Paper Exemption)', mode:'Hybrid', modeKey:'hybrid',
+    desc:'Skill + Professional · 1 Paper Exemption · 6 Papers',
+    badge:'', badgeType:'',
+    icon:'📊', iconClass:'acca',
+    stdPrice:7500, sessionPrice:6719, currency:'AED',
+    benefits:[
+      'Recorded Classes','Assessment Papers','Faculty Connect',
+      'Weekly Assessment','Faculty Prepared Notes',
+      '1-1 Mentor Access for Doubt Clearance',
+      '35 hrs Bridge Class to Recall Basics',
+      'Mock Exams & Test Paper Access',
+      'Dedicated Batch Coordinator'
+    ],
+    boardFees:[
+      { item:'Initial Registration Fee', amount:'4,500 INR', note:'via Lakshya' },
+      { item:'Exemption Fee (1 Paper)', amount:'75 GBP' },
+      { item:'Skill Level Exam Fee (per paper)', amount:'155 GBP' },
+      { item:'Professional Level Exam Fee (excl. SBL)', amount:'202 GBP' },
+      { item:'SBL Paper Exam Fee', amount:'277 GBP' },
+      { item:'Annual Subscription Fee', amount:'140 GBP' },
+    ]
+  }
+  ,{
     id:'acca-f5f9-level', cat:'acca',
     title:'ACCA F5–F9 Level', mode:'Hybrid', modeKey:'hybrid',
     desc:'Applied Skills Level · 5 Papers',
     badge:'', badgeType:'',
     icon:'📈', iconClass:'acca',
-    stdPrice:5482, sessionPrice:4934, currency:'AED',
+    stdPrice:5500, sessionPrice:4934, currency:'AED',
     benefits:[
       'Recorded Classes','Assessment Papers','Faculty Connect',
       'Weekly Assessment','Faculty Prepared Notes',
@@ -1107,7 +1143,7 @@ const COURSES = [
     desc:'Applied Skills Level · 1 Paper Exemption · 4 Papers',
     badge:'', badgeType:'',
     icon:'📝', iconClass:'acca',
-    stdPrice:4782, sessionPrice:4304, currency:'AED',
+    stdPrice:4800, sessionPrice:4304, currency:'AED',
     benefits:[
       'Recorded Classes','Assessment Papers','Faculty Connect',
       'Weekly Assessment','Faculty Prepared Notes',
@@ -1122,6 +1158,23 @@ const COURSES = [
       { item:'Skill Level Exam Fee (per paper)', amount:'155 GBP' },
       { item:'Annual Subscription Fee', amount:'140 GBP' },
     ]
+  }
+
+  ,{
+    id:'mba-acca', cat:'integrated',
+    title:'MBA + ACCA', mode:'Hybrid', modeKey:'hybrid',
+    desc:'Integrated MBA &amp; ACCA Programme',
+    badge:'Integrated', badgeType:'new',
+    icon:'🎓', iconClass:'cma',
+    stdPrice:4100, sessionPrice:3674, currency:'AED',
+    benefits:[
+      'Recorded Classes','Assessment Papers','Faculty Connect',
+      'Weekly Assessment','Faculty Prepared Notes',
+      '1-1 Mentor Access for Doubt Clearance',
+      'Mock Exams & Test Paper Access',
+      'Dedicated Batch Coordinator'
+    ],
+    notes:'University fees of 3,06,500 INR to be paid separately to the university.'
   }
 
   ,{
@@ -1621,8 +1674,8 @@ function dtCatFromWelcome(cat){
     if(b.dataset.cat===cat) b.classList.add('active');
   });
   dtBack();
-  const labels={all:'All Courses',acca:'ACCA Programmes',cma:'CMA USA',ifrs:'Diploma in IFRS',ca:'CA Programmes',cs:'CS Programmes',cpa:'CPA',uk:'UK / Ireland Hybrid Pricing'};
-  const subs={all:'Select a course to view full pricing & fee details',acca:'Knowledge, Skills & Professional level programmes',cma:'Hybrid, Online Live & Student plans',ifrs:'ACCA International Financial Reporting Standards',ca:'CA Foundation, Intermediate & Combined programmes',cs:'CS Executive & CSEET+Executive programmes',cpa:'Certified Public Accountant - AICPA',uk:'All courses at UK/Ireland hybrid pricing — Cx Price & Actual Price shown'};
+  const labels={all:'All Courses',acca:'ACCA Programmes',cma:'CMA USA',ifrs:'Diploma in IFRS',ca:'CA Programmes',cs:'CS Programmes',cpa:'CPA',uk:'UK / Ireland Hybrid Pricing',integrated:'Integrated Courses'};
+  const subs={all:'Select a course to view full pricing & fee details',acca:'Knowledge, Skills & Professional level programmes',cma:'Hybrid, Online Live & Student plans',ifrs:'ACCA International Financial Reporting Standards',ca:'CA Foundation, Intermediate & Combined programmes',cs:'CS Executive & CSEET+Executive programmes',cpa:'Certified Public Accountant - AICPA',uk:'All courses at UK/Ireland hybrid pricing — Cx Price & Actual Price shown',integrated:'Combined University & Professional Qualification Programmes'};
   document.getElementById('dt-ph').textContent=labels[cat]||'All Courses';
   document.getElementById('dt-ps').textContent=subs[cat]||'';
   dtRender(cat);
@@ -1640,8 +1693,8 @@ function dtCat(btn){
   document.getElementById('dt-courses').classList.remove('hidden');
   const cat=btn.dataset.cat;
   dtBack();
-  const labels={all:'All Courses',acca:'ACCA Programmes',cma:'CMA USA',ifrs:'Diploma in IFRS',ca:'CA Programmes',cs:'CS Programmes',cpa:'CPA',uk:'UK / Ireland Hybrid Pricing'};
-  const subs={all:'Select a course to view full pricing & fee details',acca:'Knowledge, Skills & Professional level programmes',cma:'Hybrid, Online Live & Student plans',ifrs:'ACCA International Financial Reporting Standards',ca:'CA Foundation, Intermediate & Combined programmes',cs:'CS Executive & CSEET+Executive programmes',cpa:'Certified Public Accountant - AICPA',uk:'All courses at UK/Ireland hybrid pricing — Cx Price & Actual Price shown'};
+  const labels={all:'All Courses',acca:'ACCA Programmes',cma:'CMA USA',ifrs:'Diploma in IFRS',ca:'CA Programmes',cs:'CS Programmes',cpa:'CPA',uk:'UK / Ireland Hybrid Pricing',integrated:'Integrated Courses'};
+  const subs={all:'Select a course to view full pricing & fee details',acca:'Knowledge, Skills & Professional level programmes',cma:'Hybrid, Online Live & Student plans',ifrs:'ACCA International Financial Reporting Standards',ca:'CA Foundation, Intermediate & Combined programmes',cs:'CS Executive & CSEET+Executive programmes',cpa:'Certified Public Accountant - AICPA',uk:'All courses at UK/Ireland hybrid pricing — Cx Price & Actual Price shown',integrated:'Combined University & Professional Qualification Programmes'};
   document.getElementById('dt-ph').textContent=labels[cat]||'All Courses';
   document.getElementById('dt-ps').textContent=subs[cat]||'';
   dtRender(cat);
